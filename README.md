@@ -1,22 +1,30 @@
 # LeetCode Solutions in C#
 
-Este repositório contém soluções para problemas do **LeetCode**, implementadas em **C#**. Cada solução é organizada por categoria e inclui testes para validar a implementação.
+This repository contains solutions to LeetCode problems implemented in C#. Each solution is organized by category and includes tests to validate the implementation.
 
-## 🚀 Como Executar
-### 1️⃣ Clonar o Repositório
+##🚀 How to Run
+### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/seu-usuario/leetcode-csharp.git
+git clone https://github.com/erickaoyagui/leetcode-csharp.git
 cd leetcode-csharp
 ```
 
-### 2️⃣ Configurar e Rodar os Testes
-Se ainda não tiver instalado o .NET SDK, [baixe aqui](https://dotnet.microsoft.com/en-us/download).
+### 2️⃣ Set Up and Run Tests
+If you haven't installed the .NET SDK yet, [download it here](https://dotnet.microsoft.com/en-us/download).
 
-Para rodar os testes:
+To run tests:
 ```sh
 dotnet test
 ```
 
-## 📜 Licença
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+## 🏆 Solved Problems
+| # | Problem | Solution |
+|---|---------|----------|
+| 1 | Two Sum | [TwoSum.cs](Solutions/1.TwoSum.cs) |
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
 
