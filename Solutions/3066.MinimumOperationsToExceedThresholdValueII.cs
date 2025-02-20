@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Solutions
 {
-    public class MinimumOperationsToExceedThresholdValueII
+    public class MinimumOperationsToExceedThresholdValueIISolution
     {
         // Passes 672/676 testcases
         // Need to improve performance
