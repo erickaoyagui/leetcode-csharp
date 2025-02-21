@@ -10,11 +10,11 @@ namespace Tests
 {
     public class MinimumOperationsToExceedThresholdValueIITests
     {
+        readonly MinimumOperationsToExceedThresholdValueIISolution minimum = new MinimumOperationsToExceedThresholdValueIISolution();
         [Fact]
         public void Test1()
         {
             // Arrange
-            MinimumOperationsToExceedThresholdValueIISolution minimum = new MinimumOperationsToExceedThresholdValueIISolution();
             int[] nums = [2, 11, 10, 1, 3];
             int k = 10;
             int expected = 2;
@@ -30,7 +30,6 @@ namespace Tests
         public void Test2()
         {
             // Arrange
-            MinimumOperationsToExceedThresholdValueIISolution minimum = new MinimumOperationsToExceedThresholdValueIISolution();
             int[] nums = [1, 1, 2, 4, 9];
             int k = 20;
             int expected = 4;
@@ -47,7 +46,6 @@ namespace Tests
         public void Test3()
         {
             // Arrange
-            MinimumOperationsToExceedThresholdValueIISolution minimum = new MinimumOperationsToExceedThresholdValueIISolution();
             int[] nums = [999999999, 999999999, 999999999];
             int k = 1000000000;
             int expected = 2;

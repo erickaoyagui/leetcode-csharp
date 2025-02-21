@@ -10,11 +10,11 @@ namespace Tests
 {
     public class TwoSumTests
     {
+        readonly TwoSumSolution solution = new TwoSumSolution();
         [Fact]
         public void Test1()
         {
             // Arrange
-            TwoSumSolution solution = new TwoSumSolution();
             int[] nums = [2, 7, 11, 15];
             int target = 9;
             int[] expected = [0, 1];
@@ -30,7 +30,6 @@ namespace Tests
         public void Test2()
         {
             // Arrange
-            TwoSumSolution solution = new TwoSumSolution();
             int[] nums = [3, 2, 4];
             int target = 6;
             int[] expected = [1, 2];
@@ -46,7 +45,6 @@ namespace Tests
         public void Test3()
         {
             // Arrange
-            TwoSumSolution solution = new TwoSumSolution();
             int[] nums = [3, 3];
             int target = 6;
             int[] expected = [0, 1];
