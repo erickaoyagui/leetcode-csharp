@@ -8,19 +8,18 @@ using Xunit;
 
 namespace Tests
 {
-    public class MinimumOperationsToExceedThresholdValueIITests
+    public class LongestCommonPrefixTests
     {
-        readonly MinimumOperationsToExceedThresholdValueIISolution minimum = new MinimumOperationsToExceedThresholdValueIISolution();
+        readonly LongestCommonPrefixSolution solution = new LongestCommonPrefixSolution();
         [Fact]
         public void Test1()
         {
             // Arrange
-            int[] nums = [2, 11, 10, 1, 3];
-            int k = 10;
-            int expected = 2;
+            string[] strs = ["flower", "flow", "flight"];
+            string expected = "fl";
 
             // Act
-            int result = minimum.MinOperations(nums, k);
+            string result = solution.LongestCommonPrefix(strs);
 
             // Assert
             Xunit.Assert.Equal(expected, result);
@@ -30,12 +29,11 @@ namespace Tests
         public void Test2()
         {
             // Arrange
-            int[] nums = [1, 1, 2, 4, 9];
-            int k = 20;
-            int expected = 4;
+            string[] strs = ["dog", "racecar", "car"];
+            string expected = "";
 
             // Act
-            int result = minimum.MinOperations(nums, k);
+            string result = solution.LongestCommonPrefix(strs);
 
             // Assert
             Xunit.Assert.Equal(expected, result);
@@ -46,12 +44,11 @@ namespace Tests
         public void Test3()
         {
             // Arrange
-            int[] nums = [999999999, 999999999, 999999999];
-            int k = 1000000000;
-            int expected = 2;
+            string[] strs = ["flower", "flow", "flight"];
+            string expected = "1994";
 
             // Act
-            int result = minimum.MinOperations(nums, k);
+            string result = solution.LongestCommonPrefix(strs);
 
             // Assert
             Xunit.Assert.Equal(expected, result);
