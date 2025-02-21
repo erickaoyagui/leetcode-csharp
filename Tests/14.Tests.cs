@@ -38,20 +38,5 @@ namespace Tests
             // Assert
             Xunit.Assert.Equal(expected, result);
         }
-
-
-        [Fact]
-        public void Test3()
-        {
-            // Arrange
-            string[] strs = ["flower", "flow", "flight"];
-            string expected = "1994";
-
-            // Act
-            string result = solution.LongestCommonPrefix(strs);
-
-            // Assert
-            Xunit.Assert.Equal(expected, result);
-        }
     }
 }
