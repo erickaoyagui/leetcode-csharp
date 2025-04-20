@@ -34,9 +34,25 @@ namespace Tests
         {
             // Arrange
             int[] nums = [1, 7, 9, 2, 5];
-            int lower = 3;
-            int upper = 6;
-            long expected = 6;
+            int lower = 11;
+            int upper = 11;
+            long expected = 1;
+
+            // Act
+            long result = solution.CountFairPairs(nums, lower, upper);
+
+            // Assert
+            Xunit.Assert.Equal(result, expected);
+        }        
+        
+        [Fact]
+        public void Test3()
+        {
+            // Arrange
+            int[] nums = [0, 0, 0, 0, 0, 0];
+            int lower = 0;
+            int upper = 0;
+            long expected = 15;
 
             // Act
             long result = solution.CountFairPairs(nums, lower, upper);
